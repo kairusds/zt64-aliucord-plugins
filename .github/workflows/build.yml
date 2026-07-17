@@ -1,15 +1,6 @@
 name: "Build"
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/**'
-      - 'gradle.properties'
-      - 'gradle/**'
-      - 'plugin/**'
-      - '**.gradle.kts'
+on: workflow_dispatch
 
 jobs:
   build:
