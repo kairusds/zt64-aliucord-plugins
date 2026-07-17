@@ -55,8 +55,8 @@ subprojects {
     configure<AliucordExtension> {
         author("zt", 289556910426816513L)
 
-        updateUrl.set("https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/updater.json")
-        buildUrl.set("https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/%s.zip")
+        updateUrl.set("https://raw.githubusercontent.com/kairusds/zt64-aliucord-plugins/builds/updater.json")
+        buildUrl.set("https://raw.githubusercontent.com/kairusds/zt64-aliucord-plugins/builds/%s.zip")
     }
 
     configure<KtlintExtension> {
